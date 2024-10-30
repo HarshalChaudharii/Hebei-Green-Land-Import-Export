@@ -24,10 +24,7 @@ const Sponsorship = () => {
 
         <div className="flex flex-wrap justify-center gap-8">
           {sponsors.map((sponsor) => (
-            <div
-              key={sponsor.id}
-              className="bg-white p-4 rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl max-w-xs"
-            >
+            <div key={sponsor.id} className=" p-4  max-w-xs">
               <img
                 src={sponsor.logo}
                 alt={sponsor.name}

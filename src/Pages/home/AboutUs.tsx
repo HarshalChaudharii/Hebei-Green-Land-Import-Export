@@ -9,7 +9,7 @@ export default function AboutUs() {
         <h2 className="text-2xl font-semibold text-center text-gray-700 mb-6">
           Hebei Green Land Import & Export Co. Ltd.
         </h2>
-        <p className="text-gray-600 text-justify max-w-3xl mx-auto mb-6">
+        <p className=" text-gray-600 text-justify max-w-3xl mx-auto mb-6">
           {" "}
           Company is proficient in arranging & building high performance
           professional teams for effective and successful implementation of

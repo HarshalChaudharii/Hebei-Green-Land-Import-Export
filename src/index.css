@@ -11,3 +11,8 @@
   font-weight: var(--weight, 400); /* Set default weight to 400 */
   font-style: normal;
 }
+
+/* global.css or main.css */
+body {
+  @apply font-wix-madefor-display;
+}
