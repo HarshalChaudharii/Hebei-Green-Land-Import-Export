@@ -42,11 +42,11 @@ const Team = () => (
       <div className="w-16 h-[1px] bg-blue-500 mx-auto mt-2" />
     </div>
 
-    <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 ">
+    <div className="max-w-4xl grid grid-cols-1 px-4 md:px-0 mx-auto justify-center md:grid-cols-3 gap-8 ">
       {teamMembers.map((member) => (
         <div
           key={member.id}
-          className="w-[90%] bg-white rounded-lg shadow-lg py-6 px-2 text-center hover:shadow-2xl transition transform hover:-translate-y-2"
+          className="w-full mx-auto bg-white rounded-lg shadow-lg py-6 px-2 text-center hover:shadow-2xl transition transform hover:-translate-y-2"
         >
           <div className="w-36 h-36 mx-auto rounded-full border-2 border-blue-500 mb-4 ">
             <img
