@@ -1,5 +1,5 @@
 import AboutUsSection from "./AboutUsSection";
-import AboutTeam from "./AboutTeam";
+// import AboutTeam from "./AboutTeam";
 import HeroAbout from "./HeroAbout";
 
 const AboutUsPage = () => {
@@ -7,7 +7,7 @@ const AboutUsPage = () => {
     <div>
       <HeroAbout />
       <AboutUsSection />
-      <AboutTeam />
+      {/* <AboutTeam /> */}
     </div>
   );
 };
